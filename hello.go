@@ -12,4 +12,5 @@ fmt.Println("Whoops, I'm back!")
 	fmt.Println("Is it me you're looking for?")
 	fmt.Println("bye forever")
 	fmt.Println("Forever and ever2")
+  //Dette er en kommentar
 }
