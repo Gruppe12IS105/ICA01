@@ -1,11 +1,11 @@
 package main
 
 import (
-  //"fmt"
+	"fmt"
+	"logbcli/functions"
 )
 
 func main() {
-  //fmt.Println(Logb(1,2))
-  Logb(2,3)
-
+	functions.LogaritmeFunc()
+	//fmt.Println(functions.RegnUt())
 }
