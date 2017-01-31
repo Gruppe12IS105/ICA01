@@ -1,9 +1,11 @@
 package main
 
 import (
-  "fmt"
+  //"fmt"
 )
 
 func main() {
-  fmt.Println(log())
+  //fmt.Println(Logb(1,2))
+  Logb(2,3)
+
 }

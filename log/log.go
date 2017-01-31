@@ -4,7 +4,9 @@ import (
     "math"
 )
 
+
 func main() {
-  math.Log2 (2)
+  output := math.Log2(2)
   return
+
 }
