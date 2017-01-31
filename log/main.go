@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"logbcli/functions"
+	"logbcli/log"
 )
 
 func main() {
