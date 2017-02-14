@@ -1,17 +1,13 @@
-package main
+package functions
 
 import (
-    "math"
+	"math"
 )
 
+func RegnUt() {
 
-func main() {
-<<<<<<< HEAD
-  output := math.Log2(2)
-=======
-  math.Log2 (2)
-  math.log10 (10)
->>>>>>> origin/master
-  return
+	math.Log2(2)
+
+	return
 
 }

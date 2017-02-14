@@ -8,7 +8,7 @@ var sum_tests_int32 = []struct {
 	n2       int32
 	expected int32
 }{
-	{, -65, -70},
+	{-5, -65, -70},
 	{8, 2, 10},
 	{2147483647, -1, 2147483646},
 }
@@ -20,6 +20,7 @@ func TestSumInt32(t *testing.T) {
 		}
 	}
 }
+
 ///////////////////////////////////////////
 //Uint32 testing
 var sum_tests_uint32 = []struct {
@@ -38,6 +39,7 @@ func TestSumUint32(t *testing.T) {
 		}
 	}
 }
+
 ///////////////////////////////////////////
 //Uint32 testing
 var sum_tests_int64 = []struct {
@@ -47,7 +49,7 @@ var sum_tests_int64 = []struct {
 }{
 	{1, 1, 2}, //1+1=2
 	{2147483647, 2147483648, 4294967295},
-  {1,2,3},
+	{1, 2, 3},
 }
 
 func TestSumInt64(t *testing.T) {
@@ -57,6 +59,7 @@ func TestSumInt64(t *testing.T) {
 		}
 	}
 }
+
 ///////////////////////////////////////////
 //Uint32 testing
 var sum_tests_float64 = []struct {
