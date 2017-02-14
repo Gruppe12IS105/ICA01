@@ -13,7 +13,8 @@ func main() {
 	a, _ := strconv.ParseFloat(argsA, 64)
 	b, _ := strconv.ParseFloat(argsB, 64)
 
-	fmt.Println(a + b)
+	var c = a + b
+	fmt.Printf("%v + %v = %v\n", a, b, c)
 }
 
 /*
