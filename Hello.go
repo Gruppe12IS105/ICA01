@@ -9,4 +9,7 @@ func main() {
 	fmt.Println("Indra")
 	fmt.Println("Hallvard")
 	fmt.Println("Tommy")
+	var navn = []byte("\x45\x6d\x69\x6c")
+	fmt.Printf("%s\n", navn)
+
 }
