@@ -7,5 +7,5 @@ func main() {
 	fmt.Println("Marius")
 	fmt.Println("Nicolay was here")
 	fmt.Println("Indra")
-
+	fmt.Println("Hallvard")
 }
