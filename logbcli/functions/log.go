@@ -14,7 +14,7 @@ func LogaritmeFunc() {
 	baseFloat, _ := strconv.Atoi(base)
 
 	if baseFloat == 2 {
-		fmt.Println("Logaritmen av ",tall, " blir: ", math.Log2(tallFloat), ", beregnet med base 2.")
+		fmt.Println("Logaritmen av ", tall, " blir: ", math.Log2(tallFloat), ", beregnet med base 2.")
 	} else if baseFloat == 10 {
 		fmt.Println("Logaritmen av ",tall, " blir: ", math.Log10(tallFloat), ", beregnet med base 10.")
 	} else {
