@@ -1,5 +1,5 @@
 
-**ICA01** 
+## ICA01 
 
 ## log
 Log.go i pakken, functions, regner ut logaritmen til et valgfritt tall med base 2 eller base 10. Det tar inn to argumenter fra kommandolinjen,
