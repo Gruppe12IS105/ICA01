@@ -1,4 +1,5 @@
 // Copyright 2017 Gruppe 12 IS-105. All rights reserved.
+// Kode fra Gruppe 2 IS-105 kan være delvis gjennbrukt her pga bytte av medlemmer.
 package main
 
 import (
