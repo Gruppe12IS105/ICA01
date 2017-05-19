@@ -1,4 +1,5 @@
 // Copyright 2017 Gruppe 12 IS-105. All rights reserved.
+// Kode utviklet sammen med Gruppe 12 IS-105.
 package functions
 
 import (
