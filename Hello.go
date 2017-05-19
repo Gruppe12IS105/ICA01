@@ -1,3 +1,5 @@
+// Copyright 2017 Gruppe 12 IS-105. All rights reserved.
+
 package main
 
 import "fmt"
@@ -9,6 +11,7 @@ func main() {
 	fmt.Println("Indra")
 	fmt.Println("Hallvard")
 	fmt.Println("Tommy")
+	fmt.Println("Nicole")
 	var navn = []byte("\x45\x6d\x69\x6c")
 	fmt.Printf("%s\n", navn)
 
