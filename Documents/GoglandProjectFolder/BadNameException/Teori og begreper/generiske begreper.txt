@@ -1,0 +1,9 @@
+Token
+If you google define:token, you get (amongst others) the following two definitions that seem applicable:
+
+    an individual instance of a type of symbol; "the word 'error' contains three tokens of `r'"
+    something serving as a sign of something else
+
+If you combine these two, you will land somewhere near what is commonly meant when talking about tokens in programming; a symbol representing something. Pretty vague, yes, but then it's used in many different contexts.
+
+One example: you have an authentication system where a user logs on. When the system has authenticated the user, instead of repeating this process for every request, a token is created that represents the fact that the user is authenticated. This token is then used in subsequent requests. In this case the something is the fact the the user is authenticated, and the token represents this fact.

@@ -1,0 +1,9 @@
+
+The first hash (calculated on “I like donuts”) is bigger than the target, thus it’s
+not a valid proof of work. The second hash (calculated on “I like donutsca07ca”) is
+smaller than the target, thus it’s a valid proof.
+
+You can think of a target as the upper boundary of a range: if a number (a hash)
+is lower than the boundary, it’s valid, and vice versa. Lowering the boundary will
+result in fewer valid numbers, and thus, more difficult work required to find a valid one.
+

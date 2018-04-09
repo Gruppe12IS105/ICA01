@@ -1,0 +1,22 @@
+Golang Cheatsheet
+
+Paranteser (vanligvis implementert med peker) før funksjonnavn i go:
+This is called the 'receiver'. In the first case (h handler) it is a value type, in the second (s *GracefulServer) it is a pointer. The way this works in Go may vary a bit from some other languages. The receiving type however, works more or less like a class in most object-oriented programming. It is the thing you call the method from, much like if I put some method A in side some class Person then I would need an instance of type Person in order to call A (assuming it's an instance method and not static!).
+
+One gotcha here is that the receiver gets pushed onto the call stack like other arguments so if the receiver is a value type, like in the case of handler then you will be working on a copy of the thing you called the method from meaning something like h.Name = "Evan" would not persist after you return to the calling scope. For this reason anything that expects to change the state of the receiver, needs to use a pointer or return the modified value (gives more of an immutable type paradigm if you're looking for that).
+
+Here's the relevant section from the spec; https://golang.org/ref/spec#Method_sets
+_____________________________________________________________________________
+
+ Cmp compares x and y and returns:
+-1 if x <  y
+ 0 if x == y
++1 if x >  y
+_____________________________________________________________________________
+
+Permissions in golang
+
+_____________________________________________________________________________
+
+AddBlock er checkpoint. 
+Implementer kommunikasjonssystemet mellom programmet og CLI
